@@ -1,5 +1,5 @@
 ---
-date: '2018-12-01'
+date: '2015-12-01'
 title: 'Bouncing Ball'
 github: 'https://github.com/RadhaGulhane13/bouncing-ball-game'
 external: ''
@@ -12,4 +12,4 @@ tag: 'Gaming'
 showInProjects: true
 ---
 
-The bouncing ball game is a popular interactive game where players control a virtual ball and try to keep it bouncing for as long as possible. The ball continuously moves upwards or horizontally, and the player's objective is to prevent it from falling off the screen.
+The most fun way I learn coding is by building games with multi-object environments. The bouncing ball game is a popular interactive game where players control a virtual ball and try to keep it bouncing for as long as possible. The ball continuously moves upward or horizontally, and the player’s objective is to prevent it from falling off the screen.

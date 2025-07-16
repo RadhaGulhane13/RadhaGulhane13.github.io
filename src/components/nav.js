@@ -33,7 +33,7 @@ const StyledHeader = styled.header`
 
   @media (prefers-reduced-motion: no-preference) {
     ${props =>
-    props.scrollDirection === 'up' &&
+      props.scrollDirection === 'up' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -43,7 +43,7 @@ const StyledHeader = styled.header`
       `};
 
     ${props =>
-    props.scrollDirection === 'down' &&
+      props.scrollDirection === 'down' &&
       !props.scrolledToTop &&
       css`
         height: var(--nav-scroll-height);
@@ -179,7 +179,7 @@ const Nav = ({ isHome }) => {
       target="_blank"
       rel="noopener noreferrer"
     >
-      Resume
+      Resume123
     </a>
   );
 
@@ -199,7 +199,7 @@ const Nav = ({ isHome }) => {
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              {/* <div>{ResumeLink}</div> */}
             </StyledLinks>
 
             <Menu />
@@ -229,7 +229,7 @@ const Nav = ({ isHome }) => {
                 </TransitionGroup>
               </ol>
 
-              <TransitionGroup component={null}>
+              {/* <TransitionGroup component={null}>
                 {isMounted && (
                   <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                     <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
@@ -237,7 +237,9 @@ const Nav = ({ isHome }) => {
                     </div>
                   </CSSTransition>
                 )}
-              </TransitionGroup>
+              </TransitionGroup> */}
+
+              
             </StyledLinks>
 
             <TransitionGroup component={null}>

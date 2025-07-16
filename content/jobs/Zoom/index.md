@@ -1,12 +1,13 @@
 ---
 date: '2024-28-05'
-title: 'Machine Learning Platform Engineer'
-company: 'Zoom Video Communications'
+title: 'Senior AI Software Engineer'
+company: 'Zoom Communications'
 location: 'San Jose, CA, USA'
 range: 'May 2024 - Present'
 url: 'https://www.zoom.com/'
 ---
 
-- Enabled large context windows (64k, 128k) for LLMs, enhancing model capabilities and performance.
-- Improved 2x throughput for SFT, and DPO by supporting a new AI framework, outperforming previously used frameworks.
-- Working on Deep Learning Optimization and training platform.
+- Working on Reinforcement Learning to enhance the reasoning capabilities of Vision-Language Models (VLMs).
+- Implemented novel reward modeling using a hybrid reward mechanism with support for both sparse and dense rewards for VLMs.
+- Worked on enabling and performance tuning of inference engines to accelerate data synthesis efforts.
+

@@ -7,7 +7,7 @@ tech:
   - PyTorch
   - Python
   - Distributed Deep Learning
-Company: 'The Ohio State University'
+Company: 'Ohio State University'
 showInProjects: true
 ---
 

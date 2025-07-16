@@ -2,7 +2,7 @@
 date: '2022-08-01'
 degree: 'Master of Science'
 major: 'Computer Science & Engineering'
-school: 'The Ohio State University'
+school: 'Ohio State University'
 location: 'Ohio, USA'
 duration: 'August 2022 - May 2024'
 url: 'https://www.osu.edu/'

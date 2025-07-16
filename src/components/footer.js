@@ -88,7 +88,6 @@ const Footer = () => (
           <span role="img" aria-label="Heart">
             ❤
           </span>{' '}
-          
           by<a href="https://github.com/RadhaGulhane13">Radha Gulhane</a>
         </small>
       </div>

@@ -8,7 +8,7 @@ tech:
   - PyTorch
   - MPI
   - Python
-company: 'The Ohio State University'
+company: 'Ohio State University'
 showInProjects: false
 ---
 

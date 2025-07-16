@@ -13,4 +13,4 @@ tech:
 ---
 
 InferHiRes facilitates the inference for very high-resolution images using the quantization and Distributed DL techniques. It supports half-precision and integer-only precision, providing a 6x speedup with INT8 quantization compared to FLOAT32 precision, with less than 1% accuracy degradation.<br>
-Publication : https://dl.acm.org/doi/10.1145/3626203.3670548
+https://dl.acm.org/doi/10.1145/3626203.3670548

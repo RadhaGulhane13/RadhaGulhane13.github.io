@@ -6,7 +6,7 @@ external: ''
 tech:
   - Python
   - TensorFlow
-company: 'The Ohio State University'
+company: 'Ohio State University'
 showInProjects: true
 ---
 

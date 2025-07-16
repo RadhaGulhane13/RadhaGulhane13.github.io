@@ -140,7 +140,8 @@ const About = () => {
   }, []);
 
   // const skills = ['Python', 'PyTorch', 'C++', 'Go', 'Prometheus', 'Grafana'];
-  const skills = ['Large Language Models', 'Distributed Deep Learning', 'Python', 'PyTorch'];
+  const skills = ['Large Language Models', 'Distributed Deep Learning', 'Reinforcement Learning', 'Reward Modeling for RL'];
+
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -155,20 +156,20 @@ const About = () => {
               {/* My journey in contributing to production code began in 2020 at Seagate. During my time
               there, I had the opportunity to make meaningful contributions to CORTX, a distributed
               object storage system. */}
-              My focus is on Distributed Deep Learning, and I have been privileged to explore and 
-              work in this field as a graduate researcher at OSU's High-Performance Computing lab,{' '} <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>{' '}. 
-          
+              My focus is on distributed deep learning, which I have actively researched and contributed to
+              as a graduate researcher at OSU's High-Performance Computing lab,{' '}
+              <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a> .
             </p>
-            
+
             <p>
-              At present, I work at <a href="Zoom">Zoom</a>, focusing on Deep Learning Optimization and training platform.
+              At present, I work at <a href="Zoom">Zoom</a> AI team, focusing on LLM training.
             </p>
 
             <p>
               In my leisure time, I pursue my passion for portrait sketching and hiking. &nbsp;
-              <Link className="inline-link archive-link" to="/art" ref={revealArchiveLink}>
+              {/* <Link className="inline-link archive-link" to="/art" ref={revealArchiveLink}>
                 Step into my artistic 🎨 world
-              </Link>
+              </Link> */}
             </p>
             <p>
               {/* Fast-forward to today, and I’ve had the privilege of working at{' '}
@@ -181,11 +182,9 @@ const About = () => {
               clients.
 
               At present, I am Computer Science & Engineering graduate student at 
-              The Ohio State University.  */}
+              Ohio State University.  */}
               {/* At present, I am a graduate research student working on Distributed Deep Learning at
               OSU. */}
-              
-              
             </p>
 
             {/* <p>

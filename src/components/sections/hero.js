@@ -5,7 +5,7 @@ import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
 import monocleFace from '../../images/face-with-monocle.gif';
 import ninja from '../../images/ninja.png';
-import codingCat from '../../images/coding-cat.gif'
+import codingCat from '../../images/coding-cat.gif';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -69,15 +69,14 @@ const Hero = () => {
 
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Radha Gulhane.</h2>;
-  const three = (
-    <>
-      <h3 className="small-heading">
-        Learn <img src={codingCat} alt="loading..." /> | Explore{' '}
-        <img src={monocleFace} alt="loading..." /> | Contribute{' '}
-        <img src={ninja} alt="loading..." />{' '}
-      </h3>
-    </>
-  );
+  // const three = (
+  //   <>
+  //     <h3 className="small-heading">
+  //       Learn <img src={codingCat} alt="loading..." /> | Explore{' '}
+  //       <img src={monocleFace} alt="loading..." /> | Contribute <img src={ninja} alt="loading..." />{' '}
+  //     </h3>
+  //   </>
+  // );
 
   // const three = (
   //   <>
@@ -91,17 +90,16 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        
-        {/* I am a graduate student at <b>The Ohio State University</b>, majoring in{' '}
+        {/* I am a graduate student at <b>Ohio State University</b>, majoring in{' '}
         <b>Computer Science & Engineering</b>. I am focused on expanding my knowledge in the areas
         of High-Performance Computing, Distributed Systems, and Deep Learning. Currently, my
         research efforts are dedicated to a project on Distributed Deep Learning, which I am
         undertaking at OSU's renowned High-Performance Computing lab,{' '}
         <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '} */}
-        My areas of focus include <b>Distributed Deep Learning, Machine Learning, and High-Performance Computing</b>. 
-        I graduated from <b>The Ohio State University</b> with a major in Computer Science & Engineering, 
-        where my research centered on Distributed DL and HPC.
-       
+        My areas of focus include{' '}
+        <b>Distributed Deep Learning, Machine Learning, and High-Performance Computing</b>. I
+        graduated from <b>Ohio State University</b> with a major in Computer Science &
+        Engineering, where my research centered on Distributed DL.
       </p>
     </>
   );
@@ -117,8 +115,9 @@ const Hero = () => {
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  // const items = [one, two, three, four, five];
   // const items = [one, two, three, four];
+  const items = [one, two, four];
 
   return (
     <StyledHeroSection>

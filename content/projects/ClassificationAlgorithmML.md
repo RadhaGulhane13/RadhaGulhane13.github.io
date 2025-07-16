@@ -6,8 +6,8 @@ external: ''
 tech:
   - Python
   - TensorFlow
-company: 'The Ohio State University'
+company: 'Ohio State University'
 showInProjects: true
 ---
 
-Implement differnt classification models for [Hotel Booking Dataset](https://github.com/RadhaGulhane13/classification-algorithm/blob/main/hotel_bookings_cleaned_dataset.csv) to develop effective analyses and models for predicting which future reservations are likely to be at risk of cancellation.
+Implement different classification models for [Hotel Booking Dataset](https://github.com/RadhaGulhane13/classification-algorithm/blob/main/hotel_bookings_cleaned_dataset.csv) to develop effective analyses and models for predicting which future reservations are likely to be at risk of cancellation.
