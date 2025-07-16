@@ -98,7 +98,7 @@ const Footer = () => (
         </small>
       </div>
       <div>
-        <small style={{ fontSize: '0.6em' }}>Last Updated on Oct 20th, 2024</small>
+        <small style={{ fontSize: '0.6em' }}>Last Updated on July 15th, 2025</small>
       </div>
     </StyledCredit>
   </StyledFooter>
