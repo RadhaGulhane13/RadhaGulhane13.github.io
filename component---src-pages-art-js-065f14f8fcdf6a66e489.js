@@ -1,2 +1,147 @@
-"use strict";(self.webpackChunkv1=self.webpackChunkv1||[]).push([[120],{2874:function(e,t,r){r.r(t);var a=r(6540),n=r(2618),i=r(6488),o=r(8154),l=r(2568),s=r(2532),m=r(8344),c=r(7383),d=r(4440),p=r(5793);const u=l.default.section.withConfig({displayName:"art__StyledArtsSection",componentId:"sc-brxuto-0"})(["display:flex;flex-direction:column;align-items:center;.projects-grid{",";display:grid;grid-template-columns:repeat(3,minmax(300px,1fr));grid-gap:20px;position:relative;margin-top:50px;@media (max-width:1080px){grid-template-columns:repeat(2,minmax(250px,1fr));}}.more-button{",";margin:80px auto 0;}"],(e=>{let{theme:t}=e;return t.mixins.resetList}),(e=>{let{theme:t}=e;return t.mixins.button})),f=l.default.li.withConfig({displayName:"art__StyledArt",componentId:"sc-brxuto-1"})(["position:relative;cursor:default;transition:var(--transition);@media (prefers-reduced-motion:no-preference){&:hover,&:focus-within{.project-inner{transform:translateY(-12px);}.img{border:2px solid var(--green);}}}.project-inner{flex:'0 0 calc(33.33% - 20px)';maxWidth:'calc(33.33% - 20px)';position:'relative';transition:border-color 0.3s ease;.image-container{position:relative;width:300px;height:400px;overflow:hidden;}.img{border-radius:var(--border-radius);width:100%;height:100%;object-fit:cover;}.text-overlay{position:absolute;bottom:0;left:0;width:100%;padding:10px;color:var(--white);opacity:0;pointer-events:none;transition:opacity 0.3s ease;border-radius:0 0 var(--border-radius) var(--border-radius);font-family:var(--font-mono);.title{font-size:var(--fz-sm);font-weight:bold;}.material{font-size:var(--fz-xxs);}}.image-container:hover .text-overlay{opacity:1;animation:animateText 0.6s forwards;}@keyframes animateText{from{transform:translateY(50%);}to{transform:translateY(0);}"]);t.default=e=>{let{location:t,data:r}=e;const l=r.arts.edges.filter((e=>{let{node:t}=e;return t})),{0:v,1:x}=(0,a.useState)(!1),g=(0,a.useRef)(null),h=(0,a.useRef)([]),E=(0,p.jt)(),b=l.slice(0,6),y=v?l:b,w=e=>{const t=(null==e?void 0:e.frontmatter)||{},{title:r,material:n,cover:i}=t,o=(0,s.c)(i.childImageSharp);return a.createElement("div",{className:"project-inner"},a.createElement("div",{className:"image-container"},a.createElement(s.G,{image:o,alt:r,className:"img"}),a.createElement("div",{className:"text-overlay"},a.createElement("span",{className:"title"}," ",r),a.createElement("br",null),a.createElement("span",{className:"material"}," ",n))))};return(0,a.useEffect)((()=>{E||(c.A.reveal(g.current,(0,m.srConfig)()),h.current.forEach(((e,t)=>c.A.reveal(e,(0,m.srConfig)(100*t)))))}),[]),a.createElement(d.PE,{location:t},a.createElement(o.m,{title:"Art"}),a.createElement("main",null,a.createElement("header",{ref:g},a.createElement("h1",{className:"big-heading"},"Art"),a.createElement("p",{className:"subtitle"},"Flawless Emotive Creativity")),a.createElement(u,null,a.createElement("ul",{className:"projects-grid"},E?a.createElement(a.Fragment,null,y&&y.map(((e,t)=>{let{node:r}=e;return a.createElement(f,{key:t},w(r))}))):a.createElement(n.A,{component:null},y&&y.map(((e,t)=>{let{node:r}=e;return a.createElement(i.A,{key:t,classNames:"fadeup",timeout:t>=6?300*(t-6):300,exit:!1},a.createElement(f,{key:t,ref:e=>h.current[t]=e,style:{transitionDelay:(t>=6?100*(t-6):0)+"ms"}},w(r)))})))),a.createElement("button",{className:"more-button",onClick:()=>x(!v)},"Show ",v?"Less":"More"))))}}}]);
+'use strict';
+(self.webpackChunkv1 = self.webpackChunkv1 || []).push([
+  [120],
+  {
+    2874: function (e, t, r) {
+      r.r(t);
+      var a = r(6540),
+        n = r(2618),
+        i = r(6488),
+        o = r(8154),
+        l = r(2568),
+        s = r(2532),
+        m = r(8344),
+        c = r(7383),
+        d = r(4440),
+        p = r(5793);
+      const u = l.default.section.withConfig({
+          displayName: 'art__StyledArtsSection',
+          componentId: 'sc-brxuto-0',
+        })(
+          [
+            'display:flex;flex-direction:column;align-items:center;.projects-grid{',
+            ';display:grid;grid-template-columns:repeat(3,minmax(300px,1fr));grid-gap:20px;position:relative;margin-top:50px;@media (max-width:1080px){grid-template-columns:repeat(2,minmax(250px,1fr));}}.more-button{',
+            ';margin:80px auto 0;}',
+          ],
+          e => {
+            let { theme: t } = e;
+            return t.mixins.resetList;
+          },
+          e => {
+            let { theme: t } = e;
+            return t.mixins.button;
+          },
+        ),
+        f = l.default.li.withConfig({ displayName: 'art__StyledArt', componentId: 'sc-brxuto-1' })([
+          "position:relative;cursor:default;transition:var(--transition);@media (prefers-reduced-motion:no-preference){&:hover,&:focus-within{.project-inner{transform:translateY(-12px);}.img{border:2px solid var(--green);}}}.project-inner{flex:'0 0 calc(33.33% - 20px)';maxWidth:'calc(33.33% - 20px)';position:'relative';transition:border-color 0.3s ease;.image-container{position:relative;width:300px;height:400px;overflow:hidden;}.img{border-radius:var(--border-radius);width:100%;height:100%;object-fit:cover;}.text-overlay{position:absolute;bottom:0;left:0;width:100%;padding:10px;color:var(--white);opacity:0;pointer-events:none;transition:opacity 0.3s ease;border-radius:0 0 var(--border-radius) var(--border-radius);font-family:var(--font-mono);.title{font-size:var(--fz-sm);font-weight:bold;}.material{font-size:var(--fz-xxs);}}.image-container:hover .text-overlay{opacity:1;animation:animateText 0.6s forwards;}@keyframes animateText{from{transform:translateY(50%);}to{transform:translateY(0);}",
+        ]);
+      t.default = e => {
+        let { location: t, data: r } = e;
+        const l = r.arts.edges.filter(e => {
+            let { node: t } = e;
+            return t;
+          }),
+          { 0: v, 1: x } = (0, a.useState)(!1),
+          g = (0, a.useRef)(null),
+          h = (0, a.useRef)([]),
+          E = (0, p.jt)(),
+          b = l.slice(0, 6),
+          y = v ? l : b,
+          w = e => {
+            const t = (null == e ? void 0 : e.frontmatter) || {},
+              { title: r, material: n, cover: i } = t,
+              o = (0, s.c)(i.childImageSharp);
+            return a.createElement(
+              'div',
+              { className: 'project-inner' },
+              a.createElement(
+                'div',
+                { className: 'image-container' },
+                a.createElement(s.G, { image: o, alt: r, className: 'img' }),
+                a.createElement(
+                  'div',
+                  { className: 'text-overlay' },
+                  a.createElement('span', { className: 'title' }, ' ', r),
+                  a.createElement('br', null),
+                  a.createElement('span', { className: 'material' }, ' ', n),
+                ),
+              ),
+            );
+          };
+        return (
+          (0, a.useEffect)(() => {
+            E ||
+              (c.A.reveal(g.current, (0, m.srConfig)()),
+              h.current.forEach((e, t) => c.A.reveal(e, (0, m.srConfig)(100 * t))));
+          }, []),
+          a.createElement(
+            d.PE,
+            { location: t },
+            a.createElement(o.m, { title: 'Art' }),
+            a.createElement(
+              'main',
+              null,
+              a.createElement(
+                'header',
+                { ref: g },
+                a.createElement('h1', { className: 'big-heading' }, 'Art'),
+                a.createElement('p', { className: 'subtitle' }, 'Flawless Emotive Creativity'),
+              ),
+              a.createElement(
+                u,
+                null,
+                a.createElement(
+                  'ul',
+                  { className: 'projects-grid' },
+                  E
+                    ? a.createElement(
+                        a.Fragment,
+                        null,
+                        y &&
+                          y.map((e, t) => {
+                            let { node: r } = e;
+                            return a.createElement(f, { key: t }, w(r));
+                          }),
+                      )
+                    : a.createElement(
+                        n.A,
+                        { component: null },
+                        y &&
+                          y.map((e, t) => {
+                            let { node: r } = e;
+                            return a.createElement(
+                              i.A,
+                              {
+                                key: t,
+                                classNames: 'fadeup',
+                                timeout: t >= 6 ? 300 * (t - 6) : 300,
+                                exit: !1,
+                              },
+                              a.createElement(
+                                f,
+                                {
+                                  key: t,
+                                  ref: e => (h.current[t] = e),
+                                  style: { transitionDelay: (t >= 6 ? 100 * (t - 6) : 0) + 'ms' },
+                                },
+                                w(r),
+                              ),
+                            );
+                          }),
+                      ),
+                ),
+                a.createElement(
+                  'button',
+                  { className: 'more-button', onClick: () => x(!v) },
+                  'Show ',
+                  v ? 'Less' : 'More',
+                ),
+              ),
+            ),
+          )
+        );
+      };
+    },
+  },
+]);
 //# sourceMappingURL=component---src-pages-art-js-065f14f8fcdf6a66e489.js.map
