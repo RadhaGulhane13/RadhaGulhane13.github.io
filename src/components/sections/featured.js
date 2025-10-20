@@ -42,7 +42,6 @@ const StyledProject = styled.li`
   &:nth-of-type(odd) {
     .project-content {
       grid-column: 7 / -1;
-      text-align: right;
 
       @media (max-width: 1080px) {
         grid-column: 5 / -1;
@@ -83,7 +82,7 @@ const StyledProject = styled.li`
       }
     }
     .project-image {
-      grid-column: 1 / 8;
+      grid-column: 1 / 7;
 
       @media (max-width: 768px) {
         grid-column: 1 / -1;
@@ -237,7 +236,7 @@ const StyledProject = styled.li`
 
   .project-image {
     ${({ theme }) => theme.mixins.boxShadow};
-    grid-column: 6 / -1;
+    grid-column: 7 / -1;
     grid-row: 1 / -1;
     position: relative;
     z-index: 1;

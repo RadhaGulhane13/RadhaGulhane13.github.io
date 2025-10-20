@@ -8,7 +8,7 @@ tech:
   - Python
   - Flask
 company: 'Vishwakarma Institute of Technology'
-showInProjects: false
+showInProjects: True
 ---
 
 AI model for an autonomous car to predict the steering angle in the real-time driving environment in order to minimize human efforts.

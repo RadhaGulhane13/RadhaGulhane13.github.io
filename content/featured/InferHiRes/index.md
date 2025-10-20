@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '2'
 title: 'Inference for High-Res Images with Quantization and Distributed DL'
 cover: './ddl_infer.png'
 github: 'https://github.com/OSU-Nowlab/MPI4DL/'

@@ -78,14 +78,14 @@ const Hero = () => {
   //   </>
   // );
 
-  // const three = (
-  //   <>
-  //     <h3 className="small-heading">
-  //       Love Coding <img src={ninja} alt="loading..." /> | Curious Mind{' '}
-  //       <img src={monocleFace} alt="loading..." />{' '}
-  //     </h3>
-  //   </>
-  // );
+  const three = (
+    <>
+      <h4 className="small-heading">
+        Curious Mind{' '}
+        <img src={monocleFace} alt="loading..." />{' '}
+      </h4>
+    </>
+  );
 
   const four = (
     <>
@@ -97,7 +97,7 @@ const Hero = () => {
         undertaking at OSU's renowned High-Performance Computing lab,{' '}
         <a href="https://nowlab.cse.ohio-state.edu/">NOWLAB</a>.{' '} */}
         My areas of focus include{' '}
-        <b>Distributed Deep Learning, Machine Learning, and High-Performance Computing</b>. I
+        <b>Distributed Deep Learning, Natural Language Processing, and High-Performance Computing</b>. I
         graduated from <b>Ohio State University</b> with a major in Computer Science &
         Engineering, where my research centered on Distributed DL.
       </p>
@@ -117,7 +117,7 @@ const Hero = () => {
 
   // const items = [one, two, three, four, five];
   // const items = [one, two, three, four];
-  const items = [one, two, four];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

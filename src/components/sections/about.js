@@ -162,7 +162,7 @@ const About = () => {
             </p>
 
             <p>
-              At present, I work at <a href="Zoom">Zoom</a> AI team, focusing on LLM training.
+              At present, I work at <a href="Zoom">Zoom</a> AI team, focusing on multimodal reasoning and LLM training.
             </p>
 
             <p>
